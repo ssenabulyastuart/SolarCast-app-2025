@@ -13,7 +13,7 @@ st.set_page_config(page_title="Solar Output Predictor", layout="wide")
 # ===============================
 # 🔐 Password Authentication
 # ===============================
-PASSWORD = "Stuart_n_Juliet_FYP"
+PASSWORD = "SolarCast-2025"
 st.sidebar.title("🔒 Login Required")
 user_password = st.sidebar.text_input("Enter Access Password", type="password")
 if user_password != PASSWORD:
